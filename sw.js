@@ -25,7 +25,6 @@ const fetchResponse = await fetch(event.request);
 cache.put(event.request, fetchResponse.clone());
 return fetchResponse;
 } catch (e) {
-// The network failed.
 }
 }
 })());
