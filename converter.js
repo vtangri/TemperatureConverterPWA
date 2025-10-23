@@ -30,6 +30,7 @@ return value;
 }
 throw new Error('Invalid unit');
 }
+
 form.addEventListener('input', () => {
 const inputTemp = parseFloat(inputField.value);
 const fromUnit = fromUnitField.value;
